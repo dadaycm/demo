@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'play/game1'
+
+  get 'play/game2'
+
   get 'say/hello'
 
   get 'say/goodbye'
